@@ -67,7 +67,7 @@ console.log(!zero); //so not false is true
 var zoeIsCool = true;
 var callanIsCool = false;
 
-if ((zoeIsCool || callanIsCool) === true) {
+if ((zoeIsCool && callanIsCool) === true) {
 	console.log("students are happy");
 }
 
